@@ -1,0 +1,10 @@
+Design Application Framework's Core Module
+
+Core module of the DaF and it implements some part of the Visual Works 
+Smalltalk Application Framework's Value Models [1] with integrated Data Binding  [2][3][4].
+
+References
+[1] Understanding and Using ValueModels, http://c2.com/ppr/vmodels.html 
+[2] Data Binding, http://en.wikipedia.org/wiki/Data_binding
+[3] Google Developers, Data Binding, https://developers.google.com/java-dev-tools/wbpro/features/data_binding
+[4] Swing Data Binding - JGoodies, http://www.jgoodies.com/download/presentations/binding.pdf
