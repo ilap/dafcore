@@ -28,8 +28,8 @@ namespace Daf.Core.Binding {
 
         construct {
             bind_models = new HashMap<BindKey, IBindModel> (
-                                (HashFunc?) BindKey.key_hash_func,
-                                (EqualFunc?) BindKey.key_equal_func);
+                                (HashDataFunc?) BindKey.key_hash_func,
+                                (EqualDataFunc?) BindKey.key_equal_func);
         }
 
         public void DefaultBindModelRepository () {

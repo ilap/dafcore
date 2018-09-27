@@ -24,8 +24,8 @@ namespace Daf.Core.Binding {
 
     public class BindKey : Object {
 
-        private static HashFunc? object_hash_func = Functions.get_hash_func_for (typeof (Object));
-        private static HashFunc? string_hash_func = Functions.get_hash_func_for (typeof (string));
+        private static HashDataFunc? object_hash_func = Functions.get_hash_func_for (typeof (Object));
+        private static HashDataFunc? string_hash_func = Functions.get_hash_func_for (typeof (string));
 
         private Object subject;
         public string property_name;

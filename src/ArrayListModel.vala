@@ -47,7 +47,8 @@ namespace Daf.Core {
             return result;
         }
 
-        public override bool add_all (Collection<G> items) {
+        // TODO: it's not abstract anymore in Gee
+        public new bool add_all (Collection<G> items) {
             debug ("ArrayList: add all");
 
             bool result = false;
