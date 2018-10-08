@@ -24,7 +24,7 @@ namespace Daf.Core.Binding {
 
     public abstract class AbstractAcyclicGraph : Object, IDirectedAcyclicGraph {
 
-        public unowned List edges { get; construct set; }
+        public unowned List<IDirectedAcyclicGraph> edges { get; construct set; }
         public string name { get; set; }
 
 
